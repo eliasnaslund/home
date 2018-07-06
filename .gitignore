@@ -1,5 +1,11 @@
 # .gitignore
-*
-# keep track
-!.vimrc
+/*
+
+!.config
+.config/*
+!.config/nvim
+.config/nvim/*
+!.config/nvim/init.vim
+
+!.zshrc
 !.gitignore
